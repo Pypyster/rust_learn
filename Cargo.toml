@@ -5,7 +5,7 @@ edition = "2024"
 
 [lib] 
 name = "thread_help"
-path = "06_smart_ponts_threads/thread_help.rs"
+path = "06_smart_point_threads/thread_help.rs"
 
 [dependencies]
 inquire = "0.9.4"
