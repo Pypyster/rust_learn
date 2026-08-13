@@ -1,9 +1,9 @@
-mod test7;
+mod test_6;
 
 use std::cell::RefCell;
 use std::rc::Rc;
 
-use test7::{ChatApp, Room, User};
+use test_6::{ChatApp, Room, User};
 
 fn main() {
     let mut app = ChatApp::new("Mega Chat".to_string());
