@@ -9,7 +9,7 @@ async fn main() {
     println!("Server is listening on {}", addr);
 
     if let Err(e) = open::that(format!("http://127.0.0.1:{}/hello/me", addr.port())) {
-        eprintln!("Не удалось открыть браузер: {}", e);
+        eprintln!("Browser can not be opened: {}", e);
     }
 
     axum::serve(listener, app).await.unwrap();
