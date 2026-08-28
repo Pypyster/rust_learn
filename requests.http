@@ -1,0 +1,38 @@
+### Проверка GET
+GET http://127.0.0.1:8080/test
+
+### Проверка статусов 
+GET http://127.0.0.1:8080/hello/2/alone
+
+### Проверка POST
+POST http://127.0.0.1:8080/
+Content-Type: application/x-www-form-urlencoded
+
+name=Merphy&age=8
+
+### Проверка PUT
+PUT http://127.0.0.1:8080/hello
+
+### Проверка PATCH
+PATCH http://127.0.0.1:8080/hello
+
+### Проверка DELETE
+DELETE http://127.0.0.1:8080/hello
+
+### Проверка GET
+GET http://127.0.0.1:8080/world
+
+### Проверка GET
+GET http://127.0.0.1:8080/rediarect
+
+### Проверка GET
+GET http://127.0.0.1:8080/user/profile
+
+### Проверка GET
+GET http://127.0.0.1:8080/user/settings
+
+### Проверка GET
+GET http://127.0.0.1:8080/about
+
+### Проверка GET
+GET http://127.0.0.1:8080/hello/world

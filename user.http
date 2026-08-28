@@ -1,0 +1,24 @@
+### Проверка главной страницы
+GET http://127.0.0.1:8080/
+
+### Проверка POST для регистрации
+POST http://127.0.0.1:8080/user/signup
+Content-Type: application/json
+
+{
+    "username": "Ann",
+    "password": "1123456"
+}
+
+### Проверка POST для идентификации
+POST http://127.0.0.1:8080/user/signin
+Content-Type: application/json
+
+{
+    "username": "Ann",
+    "password": "1123456"
+}
+
+### Проверка GET для безопасности 
+GET  http://127.0.0.1:8080/protected
+Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBbm4iLCJleHAiOjE3ODc5MDM5NDB9.gpZ2SFUlE_kv1jJD0Lac_AYfIsph0OuSLQh-UQCqhqk
