@@ -1,8 +1,8 @@
 ### Проверка GET
-GET http://127.0.0.1:8080/test
+GET http://127.0.0.1:8080/
 
 ### Проверка статусов 
-GET http://127.0.0.1:8080/hello/2/alone
+GET http://127.0.0.1:8080/hello_2
 
 ### Проверка POST
 POST http://127.0.0.1:8080/
@@ -11,7 +11,7 @@ Content-Type: application/x-www-form-urlencoded
 name=Merphy&age=8
 
 ### Проверка PUT
-PUT http://127.0.0.1:8080/hello
+GET http://127.0.0.1:8080/hello
 
 ### Проверка PATCH
 PATCH http://127.0.0.1:8080/hello

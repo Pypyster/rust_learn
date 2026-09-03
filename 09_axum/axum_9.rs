@@ -81,8 +81,7 @@ async fn protected(Extension(username): Extension<String>) -> impl IntoResponse{
     (StatusCode::OK,res).into_response()
 }
 
-async fn auth(State(state): State<Arc<Message>>, mut request: Request, next: Next) -> impl IntoResponse{
-    println!("{:?}", state);
+async fn auth(mut request: Request, next: Next) -> impl IntoResponse{
     match request.headers().get("authorization") {
         None => (StatusCode::UNAUTHORIZED, "No token!").into_response(),
         Some(header_value) => {

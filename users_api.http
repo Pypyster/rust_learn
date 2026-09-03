@@ -1,0 +1,54 @@
+@baseUrl = http://127.0.0.1:8080
+
+### Главная страница
+GET {{baseUrl}}/
+
+### Получить список всех людей
+GET {{baseUrl}}/list
+
+### Добавить нового человека (получит id = 1)
+POST {{baseUrl}}/add_persone
+Content-Type: application/json
+
+{
+  "name": "Harry"
+}
+
+### Добавить ещё одного человека (получит id = 2)
+POST {{baseUrl}}/add_persone
+Content-Type: application/json
+
+{
+  "name": "Merphy"
+}
+
+### Получить одного человека по id
+GET {{baseUrl}}/persone/2
+
+### Получить несуществующего человека (должно вернуть 404)
+GET {{baseUrl}}/persone/999
+
+### Обновить человека по id
+PUT {{baseUrl}}/update_persone/1
+Content-Type: application/json
+
+{
+  "name": "Kris"
+}
+
+### Обновить несуществующего человека (должно вернуть 404)
+PUT {{baseUrl}}/update_persone/999
+Content-Type: application/json
+
+{
+  "name": "Not exist"
+}
+
+### Удалить человека по id
+DELETE {{baseUrl}}/remove_persone/1
+
+### Удалить несуществующего человека (должно вернуть 404)
+DELETE {{baseUrl}}/remove_persone/999
+
+### Проверить список после всех операций
+GET {{baseUrl}}/list

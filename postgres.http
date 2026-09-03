@@ -1,0 +1,64 @@
+### Переменные
+@baseUrl = http://127.0.0.1:8080
+
+### 1. Главная страница
+GET {{baseUrl}}/
+Content-Type: text/plain
+
+### 2. Получить список всех задач
+GET {{baseUrl}}/todo_list
+Accept: application/json
+
+### 3. Добавить новую задачу
+POST {{baseUrl}}/add_todo
+Content-Type: application/json
+
+{
+  "content": "Run"
+}
+
+### Добавить ещё одну задачу 
+POST {{baseUrl}}/add_todo
+Content-Type: application/json
+
+{
+  "content": "Clean"
+}
+
+### Получить одну задачу по id 
+GET {{baseUrl}}/todo/1
+Accept: application/json
+
+### Получить несуществующую задачу (проверка 404 Not Found)
+GET {{baseUrl}}/todo/9999
+Accept: application/json
+
+### 8. Обновить задачу по id
+PUT {{baseUrl}}/update_todo/2
+Content-Type: application/json
+
+{
+  "content": "Update"
+}
+
+### Обновить несуществующую задачу (проверка 404 Not Found)
+PUT {{baseUrl}}/update_todo/9999
+Content-Type: application/json
+
+{
+  "content": "Этого не должно быть"
+}
+
+### Проверить, что обновление применилось
+GET {{baseUrl}}/todo/2
+Accept: application/json
+
+### Удалить задачу по id 
+DELETE {{baseUrl}}/delete_todo/1
+
+### Удалить несуществующую задачу (проверка 404 Not Found)
+DELETE {{baseUrl}}/delete_todo/9999
+
+### Проверить итоговый список после удаления
+GET {{baseUrl}}/todo_list
+Accept: application/json

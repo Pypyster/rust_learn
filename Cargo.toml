@@ -28,7 +28,18 @@ open = "5"
 bcrypt = "0.19.3"
 tokio-postgres = "0.7.18"
 jsonwebtoken = "9.3.0"
-tower-http = { version = "0.7.0", features = ["cors"] }
+tower-http = { version = "0.7.0", features = ["full"] }
+tokio-util = "0.7.19"
+axum_session = "0.21.0"
+axum_session_sqlx = { version = "0.11.0", default-features = false, features = ["sqlite", "tls-rustls"] }
+sqlx = { version = "0.9.0", features = ["postgres", "runtime-tokio", "macros"] }
+axum_session_auth = "0.21.0"
+async-trait = "0.1.92"
+anyhow = "1.0.104"
+async-graphql = "7.2.1"
+async-graphql-axum = "7.2.1"
+futures-util = "0.3.34"
+sea-orm = { version = "2.0.2", features = ["sqlx-sqlite","sqlx-postgres", "runtime-tokio-native-tls", "macros"] }
 [dev-dependencies]
 pretty_assertions = "1"
 

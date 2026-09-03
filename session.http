@@ -1,0 +1,29 @@
+### Проверка GET
+GET http://127.0.0.1:8080/
+
+### Проверка ВХОДА
+POST  http://127.0.0.1:8080/login
+Content-Type: application/json
+
+{
+    "username": "Ann",
+    "password": "1123456"
+}
+
+### Проверка GET
+GET http://127.0.0.1:8080/logout
+
+### Проверка GET
+GET http://127.0.0.1:8080/protected
+
+### Проверка РЕГИСТРАЦИИ
+POST  http://127.0.0.1:8080/register
+Content-Type: application/json
+
+{
+    "username": "Sonya",
+    "password": "1123456"
+}
+
+### Проверка POST
+POST http://127.0.0.1:8080/ws
