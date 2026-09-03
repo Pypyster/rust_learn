@@ -1,0 +1,10 @@
+C:\Users\acyna\It-stage\test_rust\chat_app\chat-file\target\debug\deps\tokio_tungstenite-c67eab5fc9eb9615.d: C:\Users\acyna\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tokio-tungstenite-0.29.0\src\lib.rs C:\Users\acyna\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tokio-tungstenite-0.29.0\src\compat.rs C:\Users\acyna\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tokio-tungstenite-0.29.0\src\connect.rs C:\Users\acyna\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tokio-tungstenite-0.29.0\src\handshake.rs C:\Users\acyna\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tokio-tungstenite-0.29.0\src\stream.rs C:\Users\acyna\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tokio-tungstenite-0.29.0\src\tls.rs
+
+C:\Users\acyna\It-stage\test_rust\chat_app\chat-file\target\debug\deps\libtokio_tungstenite-c67eab5fc9eb9615.rmeta: C:\Users\acyna\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tokio-tungstenite-0.29.0\src\lib.rs C:\Users\acyna\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tokio-tungstenite-0.29.0\src\compat.rs C:\Users\acyna\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tokio-tungstenite-0.29.0\src\connect.rs C:\Users\acyna\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tokio-tungstenite-0.29.0\src\handshake.rs C:\Users\acyna\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tokio-tungstenite-0.29.0\src\stream.rs C:\Users\acyna\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tokio-tungstenite-0.29.0\src\tls.rs
+
+C:\Users\acyna\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tokio-tungstenite-0.29.0\src\lib.rs:
+C:\Users\acyna\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tokio-tungstenite-0.29.0\src\compat.rs:
+C:\Users\acyna\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tokio-tungstenite-0.29.0\src\connect.rs:
+C:\Users\acyna\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tokio-tungstenite-0.29.0\src\handshake.rs:
+C:\Users\acyna\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tokio-tungstenite-0.29.0\src\stream.rs:
+C:\Users\acyna\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tokio-tungstenite-0.29.0\src\tls.rs:
